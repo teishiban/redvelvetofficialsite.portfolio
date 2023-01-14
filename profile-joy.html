@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Red Velvet Japan オフィシャルサイト</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="header-top">
+        <div class="main-logo">
+            <a href="index.html"><img src="images/main-logo.svg" alt="ロゴ"></a>
+
+        </div>
+
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="discography.html">DISCOGRAPHY</a></li>
+                <li><a href="movie.html">MOVIE</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+    <div class="main-wrap">
+        <div class="member-name">JOY・ジョイ</div>
+
+
+        <div class="profile-member-page">
+
+            <img src="images/introduction-joy.jpeg">
+
+            <div class="profile-member-page-introduction">
+
+                <dl>
+
+                    <dt>本名</dt>
+                    <dd>パク・スヨン</dd>
+
+                    <dt>ポジション</dt>
+                    <dd>サブボーカル、リードラッパー</dd>
+
+                    <dt>生年月日</dt>
+                    <dd>1996年9月3日</dd>
+
+                    <dt>出身地</dt>
+                    <dd>大韓民国済州道</dd>
+
+                    <dt>身長</dt>
+                    <dd>168cm</dd>
+
+                    <dt>血液型</dt>
+                    <dd>A型</dd>
+
+                    <dt>カラー</dt>
+                    <dd>緑</dd>
+
+
+
+                </dl>
+            </div>
+
+
+        </div>
+        <div class="personal-introduction">メンバーイチの高身長、ジョイが年齢は下から２番目ですが、その身長とキュートな表情でしっかり存在感を放っています。
+            女優としても活躍していることも特徴で、2017年には「カノジョは嘘を愛しすぎてる」でヒロインを演じました。
+            ジョイは可愛い笑顔が魅力的なので、パフォーマンスの時にふと見せる表情にキュンときたファンの方も多いのではないでしょうか？</div>
+    </div>
+    </div>
+    <div class="back-button"><a href="profile.html">&gt BACK</a></div>
+
+
+
+    <footer class="footer-top">
+        <div class="copyright">
+            <img src="images/main-logo.svg" alt="ロゴ"><br>
+
+            <ul>
+                <li><a href="index.html">HOME</a></li><span>|</span>
+                <li><a href="news.html">NEWS</a></li><span>|</span>
+                <li><a href="profile.html">PROFILE</a></li><span>|</span>
+                <li><a href="discography.html">DISCOGRAPHY</a></li><span>|</span>
+                <li><a href="movie.html">MOVIE</a></li>
+
+            </ul>
+
+
+            <small>@copyright 2022 SM Entertainment </small>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+
+
+
+        $(function () {
+            $(window).scroll(function () {
+                $('.fade-in').each(function () {
+                    const elemPos = $(this).offset().top;
+                    const scroll = $(window).scrollTop();
+                    const windowHeight = $(window).height();
+                    if (scroll > elemPos - windowHeight) {
+                        $(this).addClass('scroll-in');
+                    }
+                });
+            });
+
+        });
+        jQuery(window).scroll();
+
+    </script>
+</body>
+
+
+</html>

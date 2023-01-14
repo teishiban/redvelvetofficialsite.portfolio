@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Red Velvet Japan オフィシャルサイト</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="header-top">
+        <div class="main-logo">
+            <a href="index.html"><img src="images/main-logo.svg" alt="ロゴ"></a>
+
+        </div>
+
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="discography.html">DISCOGRAPHY</a></li>
+                <li><a href="movie.html">MOVIE</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+    <div class="main-wrap">
+        <div class="member-name">SEULGI・スルギ</div>
+
+
+        <div class="profile-member-page">
+
+            <img src="images/introduction-seulgi.jpeg">
+
+            <div class="profile-member-page-introduction">
+
+                <dl>
+
+                    <dt>本名</dt>
+                    <dd>カン・スルギ</dd>
+
+                    <dt>ポジション</dt>
+                    <dd>リードボーカル、メインダンサー</dd>
+
+                    <dt>生年月日</dt>
+                    <dd>1994年2月10日</dd>
+
+                    <dt>出身地</dt>
+                    <dd>大韓民国京畿道安山市</dd>
+
+                    <dt>身長</dt>
+                    <dd>161cm</dd>
+
+                    <dt>血液型</dt>
+                    <dd>A型</dd>
+
+                    <dt>カラー</dt>
+                    <dd>オレンジ</dd>
+
+
+
+
+                </dl>
+            </div>
+
+
+        </div>
+        <div class="personal-introduction">一重がチャームポイントのアジアンビューティーなスルギ。
+            「世界で最も美しい顔100人」になんと３年連続でランクインしているほど、世界レベルで見ても魅力のあるビジュアルと言えます。
+            ７年もの練習生期間を経ているためダンスも歌も実力のあるメンバーで、彼女のパフォーマンススキルの高さはライブやMVでもかなり発揮されています。
+            そしてスルギは日本語が堪能な事で有名でもあります。話すだけでなく書くこともできるそうです。
+            身長はそこまで高くないものの、スレンダーボディも魅力の一つでスタイル維持の努力を惜まないんだとか。</div>
+    </div>
+    </div>
+    <div class="back-button"><a href="profile.html">&gt BACK</a></div>
+
+
+
+    <footer class="footer-top">
+        <div class="copyright">
+            <img src="images/main-logo.svg" alt="ロゴ"><br>
+
+            <ul>
+                <li><a href="index.html">HOME</a></li><span>|</span>
+                <li><a href="news.html">NEWS</a></li><span>|</span>
+                <li><a href="profile.html">PROFILE</a></li><span>|</span>
+                <li><a href="discography.html">DISCOGRAPHY</a></li><span>|</span>
+                <li><a href="movie.html">MOVIE</a></li>
+
+            </ul>
+
+
+            <small>@copyright 2022 SM Entertainment </small>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+
+
+
+        $(function () {
+            $(window).scroll(function () {
+                $('.fade-in').each(function () {
+                    const elemPos = $(this).offset().top;
+                    const scroll = $(window).scrollTop();
+                    const windowHeight = $(window).height();
+                    if (scroll > elemPos - windowHeight) {
+                        $(this).addClass('scroll-in');
+                    }
+                });
+            });
+
+        });
+        jQuery(window).scroll();
+
+    </script>
+</body>
+
+
+</html>

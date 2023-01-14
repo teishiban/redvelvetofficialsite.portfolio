@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Red Velvet Japan オフィシャルサイト</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="header-top">
+        <div class="main-logo">
+            <a href="index.html"><img src="images/main-logo.svg" alt="ロゴ"></a>
+
+        </div>
+
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="discography.html">DISCOGRAPHY</a></li>
+                <li><a href="movie.html">MOVIE</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+    <div class="main-wrap">
+        <div class="member-name">YERI・イェリ</div>
+
+
+        <div class="profile-member-page">
+
+            <img src="images/introduction-yeri.jpeg">
+
+            <div class="profile-member-page-introduction">
+
+                <dl>
+
+                    <dt>本名</dt>
+                    <dd>キム・イェリム</dd>
+
+                    <dt>ポジション</dt>
+                    <dd>サブボーカル、サブラッパー</dd>
+
+                    <dt>生年月日</dt>
+                    <dd>1999年3月5日</dd>
+
+                    <dt>出身地</dt>
+                    <dd>大韓民国ソウル特別市</dd>
+
+                    <dt>身長</dt>
+                    <dd>162cm</dd>
+
+                    <dt>血液型</dt>
+                    <dd>0型</dd>
+
+                    <dt>カラー</dt>
+                    <dd>紫</dd>
+
+
+
+                </dl>
+            </div>
+
+
+        </div>
+        <div class="personal-introduction">最年少メンバーのイェリ、なんと最年長のアイリーンとは８歳離れています。
+            Red Velvetがデビューした７ヶ月後に追加メンバーとして加入したイェリ。
+            練習生の頃からダンススキルに定評があり、イェリが加入した事でグループ全体のパフォーマンス力がさらに上がったとも言われています。
+            末っ子らしい可愛らしさと元気さが特徴で、そのキュートなビジュアルとダンスのギャップも素敵ですよね。</div>
+    </div>
+    </div>
+    <div class="back-button"><a href="profile.html">&gt BACK</a></div>
+
+
+
+    <footer class="footer-top">
+        <div class="copyright">
+            <img src="images/main-logo.svg" alt="ロゴ"><br>
+
+            <ul>
+                <li><a href="index.html">HOME</a></li><span>|</span>
+                <li><a href="news.html">NEWS</a></li><span>|</span>
+                <li><a href="profile.html">PROFILE</a></li><span>|</span>
+                <li><a href="discography.html">DISCOGRAPHY</a></li><span>|</span>
+                <li><a href="movie.html">MOVIE</a></li>
+
+            </ul>
+
+
+            <small>@copyright 2022 SM Entertainment </small>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+
+
+
+        $(function () {
+            $(window).scroll(function () {
+                $('.fade-in').each(function () {
+                    const elemPos = $(this).offset().top;
+                    const scroll = $(window).scrollTop();
+                    const windowHeight = $(window).height();
+                    if (scroll > elemPos - windowHeight) {
+                        $(this).addClass('scroll-in');
+                    }
+                });
+            });
+
+        });
+        jQuery(window).scroll();
+
+    </script>
+</body>
+
+
+</html>

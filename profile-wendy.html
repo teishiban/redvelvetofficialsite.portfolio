@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Red Velvet Japan オフィシャルサイト</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="header-top">
+        <div class="main-logo">
+            <a href="index.html"><img src="images/main-logo.svg" alt="ロゴ"></a>
+
+        </div>
+
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="discography.html">DISCOGRAPHY</a></li>
+                <li><a href="movie.html">MOVIE</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+    <div class="main-wrap">
+        <div class="member-name">WENDY・ウェンディ</div>
+
+
+        <div class="profile-member-page">
+
+            <img src="images/introduction-wendy.jpeg">
+
+            <div class="profile-member-page-introduction">
+
+                <dl>
+
+                    <dt>本名</dt>
+                    <dd>ソン・スンワン</dd>
+
+                    <dt>ポジション</dt>
+                    <dd>メインボーカル</dd>
+
+                    <dt>生年月日</dt>
+                    <dd>1994年2月21日</dd>
+
+                    <dt>出身地</dt>
+                    <dd>大韓民国ソウル特別市城北区</dd>
+
+                    <dt>身長</dt>
+                    <dd>157.2cm</dd>
+
+                    <dt>血液型</dt>
+                    <dd>O型</dd>
+
+                    <dt>カラー</dt>
+                    <dd>青</dd>
+
+
+
+                </dl>
+            </div>
+
+
+        </div>
+        <div class="personal-introduction">メインボーカル担当のウェンディ。
+            カナダで暮らしていた時に事務所のスタッフの目に留まり練習生となった経歴を持ち、もちろん英語も堪能。その上、ピアノやフルート、サックスなどの演奏もできるそうです。
+            メインボーカルなだけあってその歌唱力もピカイチ！特に高音がとても綺麗です。
+            そしてなんと頭も良いという完璧ぶり。中学卒業時には「オバマ大統領賞」という成績優秀者にのみ贈られる賞を授与したんだとか。
+            美人で音楽感性豊かで頭も良いなんて、羨ましすぎますね！</div>
+    </div>
+    </div>
+    <div class="back-button"><a href="profile.html">&gt BACK</a></div>
+
+
+
+    <footer class="footer-top">
+        <div class="copyright">
+            <img src="images/main-logo.svg" alt="ロゴ"><br>
+
+            <ul>
+                <li><a href="index.html">HOME</a></li><span>|</span>
+                <li><a href="news.html">NEWS</a></li><span>|</span>
+                <li><a href="profile.html">PROFILE</a></li><span>|</span>
+                <li><a href="discography.html">DISCOGRAPHY</a></li><span>|</span>
+                <li><a href="movie.html">MOVIE</a></li>
+
+            </ul>
+
+
+            <small>@copyright 2022 SM Entertainment </small>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+
+
+
+        $(function () {
+            $(window).scroll(function () {
+                $('.fade-in').each(function () {
+                    const elemPos = $(this).offset().top;
+                    const scroll = $(window).scrollTop();
+                    const windowHeight = $(window).height();
+                    if (scroll > elemPos - windowHeight) {
+                        $(this).addClass('scroll-in');
+                    }
+                });
+            });
+
+        });
+        jQuery(window).scroll();
+
+    </script>
+</body>
+
+
+</html>
